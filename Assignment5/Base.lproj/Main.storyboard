@@ -30,6 +30,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="home_spinner" id="dmN-1d-chV">
+                                <rect key="frame" x="87" y="160" width="146" height="146"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="home_overlay" id="b11-iV-pb3">
+                                <rect key="frame" x="0.0" y="283" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.27058823529999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -270,6 +278,8 @@
         <image name="compose_button" width="50" height="35"/>
         <image name="home" width="320" height="524"/>
         <image name="home_icon" width="35" height="35"/>
+        <image name="home_overlay" width="320" height="100"/>
+        <image name="home_spinner" width="146" height="146"/>
         <image name="link_icon" width="75" height="95"/>
         <image name="loading-1" width="61" height="19"/>
         <image name="photo_icon" width="75" height="95"/>
